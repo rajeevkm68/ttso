@@ -43,7 +43,5 @@ def TTS():
         with open("speech.mp3", "wb") as f:
             f.write(response["AudioStream"].read())
 
-
-
 if __name__ == '__main__':
     app.run()
